@@ -22,6 +22,13 @@
 
 ---
 
+## 预训练模型 (Pre-trained Models)
+
+为了方便社区使用和下载，本项目所有版本的预训练模型都已托管在 Hugging Face Hub。
+**[点击此处访问模型仓库进行下载](https://huggingface.co/yunpengZhangup/locotrack-EfficientNet)**
+
+---
+
 ## 关键脚本说明
 *   **[combined_tracker_faceparsing_multi.py](https://github.com/zyp-up/locotrack-pytorch-efficientnet/blob/main/combined_tracker_faceparsing_multi.py)**：该脚本为一个通用的人脸跟踪器脚本，如果需要修改，只需要将对应的检测器和跟踪器换成您的特定需求，就可以在任何视频场景实现多目标跟踪。
 
